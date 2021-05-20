@@ -1,0 +1,17 @@
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+        "username": "swastik",
+        "password":"mypassword"
+}
+
+###
+
+GET http://localhost:8080/api/currentPrice
+
+###
+
+GET http://localhost:8080/logout
+
+###
